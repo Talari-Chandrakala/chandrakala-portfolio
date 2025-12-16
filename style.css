@@ -1,0 +1,264 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh ;
+    position: relative;
+    font-family: sans-serif;
+
+}
+.navbar h2 {
+   display: flex;
+    align-items:left;
+    gap: 10px;  
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 40px;
+    align-items:center;
+    justify-content:space-around;
+    gap: 2px;    
+} */
+
+/* .navbar .logo{
+    width:160px ;
+    cursor: pointer;
+    margin-top: -3px;
+    margin-left: -2%;
+} */
+ /* .logo {
+    width: 120px;        /* adjust size as you like */
+    /* height: 120px;       /* same as width for perfect circle */
+    /* border-radius: 50%;  /*makes the image circular*/
+    /* object-fit: cover; */
+    /* gap: 3px;     */ 
+/* }  */
+/* .navbar img{
+      */
+      /* width: 60px;
+      height: 60px; */
+      /* border-radius: 50%; Makes your photo round */
+      /* margin-right: 15px;
+      border: 2px solid white;
+    } */
+ 
+
+/* ul{
+   margin-top: -4px; 
+  
+}
+
+ul li{
+    list-style: none;
+    display:inline-block ;
+    padding: 10px 16px;
+     
+
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    
+   
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+} */
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f5f2;
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #f2f5f2;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-card .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2a635e;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    margin: 10px 0 5px;
+}
+
+.profile-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #f2f5f2;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Intro Card */
+.intro-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    flex: 1;
+    min-width: 400px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.intro-card p {
+    font-size: 16px;
+}
+
+.intro-card h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin: 10px 0 20px;
+}
+
+.intro-card h1 span {
+    font-weight: bold;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #2a635e;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.download-btn {
+    background-color: #2a635e;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.intro-card1 {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    flex: 1;
+    min-width: 400px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* .intro-card h3 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin: 10px 0 20px;
+} */
+
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background:  #2a635e;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;  /* REMOVE underline */
+  cursor: pointer;
+}
+
+

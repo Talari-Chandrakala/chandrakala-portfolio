@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PolySans", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+body {
+    background: #e8f0ec;
+    padding: 40px;
+}
+
+.services-section {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 14px;
+    color: #777;
+}
+
+.main-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.service-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    transition: .3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.details-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.details-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    flex: 1;
+    min-width: 320px;
+}
+
+.details-box h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.detail-card {
+    border-left: 3px solid #4caf50;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.detail-card .year {
+    font-size: 14px;
+    color: #777;
+}
+
+.detail-card h4 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
