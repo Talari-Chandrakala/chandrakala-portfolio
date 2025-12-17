@@ -11,6 +11,95 @@
       font-family: Arial, sans-serif;
       background: #f7f7f7;
       color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 1rem 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+    
+    body {
+      padding-top: 80px;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+      transform: translateY(-2px);
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: #ffd700;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .hire-btn {
+      background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    }
+
+    .hire-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    }
+
+    .main-content {
       padding: 40px 16px;
       display: flex;
       justify-content: center;
@@ -63,11 +152,27 @@
 </head>
 
 <body>
+  <header>
+    <div class="header-container">
+      <div class="logo">Chandrakala</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hire-btn" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=talarichandrakala2@gmail.com', '_blank')">Hire Me</button>
+    </div>
+  </header>
 
-  <div class="container">
+  <div class="main-content">
+    <div class="container">
     <h1>Contact Me</h1>
     <p>
-     I'm<b> Talari Chandrakala </b>, a backend developer with 2 years of experience specializing in 
+     I'm<b> Talari Chandrakala </b>, a backend developer with 1 year 3 months of experience specializing in 
      Python, Django, DRF, REST APIs, authentication systems, and scalable backend architectures. 
      If you're interested in discussing a backend role, 
      collaboration, or project, feel free to reach out using the contact details below.
@@ -98,6 +203,7 @@
       Hyderabad, India
     </div>
   </div>
+</div>
 
 </body>
 </html>
